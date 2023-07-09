@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    overflow: hidden;
+}
+
+header .logo{
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 8px 10px black;
+}
+
+header nav a{
+    text-decoration: none;
+    padding: 10px 10px;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s;
+    border-radius: 10px;
+    font-weight: 700;
+    text-shadow: 4px 8px 10px black;
+    font-size: 20px;
+}
+ header nav a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    
+}
+
+.parallax{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    height: 116vh;
+    background: url(background.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    
+}
+
+#text{
+    position: absolute;
+    font-size: 50px;
+    color: rgb(39, 39, 39);
+    text-shadow: 4px 8px 10px rgb(255, 255, 255);
+}
+
+.parallax img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+
+
+.parallax img#gate-left {
+    transform: translateX(-282px);
+    position: fixed;
+    z-index: 1;
+    
+}
+
+.parallax img#gate-right {
+    transform: translateX(302px);
+    position: fixed;
+    z-index: 9;
+    
+}
+.sec{
+    background-color: rgba(2, 1, 12, 0.971);
+    z-index: 1000;
+    position: absolute;
+}
+
+.parallax img#grass{
+    position: absolute;
+}
+p{
+    color: aliceblue;
+    line-height: 26.5px;
+    margin-left: 20px;
+    z-index: 99;
+}
+
+h1{
+    padding-top: 25px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    font-size: 35px;
+    color: aliceblue;
+    
+    
+}
+
