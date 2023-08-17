@@ -1,9 +1,3 @@
-// API access key: -Y8c3D68pOHUAr2a2B_xXeR0iFrEcSi_cEehKRZFF6Q
-// API secret key: EfCGeAUQ69qq64MGwmm_YSF04pmN6Lbl9fttAzUspZI
-
-
-// API access key: -Y8c3D68pOHUAr2a2B_xXeR0iFrEcSi_cEehKRZFF6Q
-// API secret key: EfCGeAUQ69qq64MGwmm_YSF04pmN6Lbl9fttAzUspZI
 
 const accessKey = "-Y8c3D68pOHUAr2a2B_xXeR0iFrEcSi_cEehKRZFF6Q";
 const searchForm = document.getElementById("search-form");
